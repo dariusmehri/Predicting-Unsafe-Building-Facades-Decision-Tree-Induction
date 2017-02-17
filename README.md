@@ -1,6 +1,6 @@
 #Research Question and Data
 
-###Can the DOB develop a model using existing to predict unsafe buildings? Are building characteristics a good predictor to determine whether a building facade is safe or unsafe?
+###Can the DOB develop a model using existing data to predict unsafe buildings? Are building characteristics a good predictor to determine whether a building facade is safe or unsafe?
 
 ###Data: Compliance database
 
