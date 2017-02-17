@@ -40,16 +40,27 @@ Conclusion: Model is very good at predicting safee buildings, not so good at pre
 Decision Tree Rules:
 
 Age <= 30: SAFE (774.2/191.2)
+
 Age > 30:
+
 :...Violations <= 0:
+
     :...Public = 0: SAFE (4505.5/1407.7)
+    
     :   Public = 1:
+    
     :   :...BldgFront > 471: UNSAFE (30.5/2.5) ACC = 90%
+    
     :       BldgFront <= 471:
+    
     :       :...NumFloors <= 6.5: SAFE (472.3/184.5)
+    
     :           NumFloors > 6.5:
+    
     :           :...AssessTotal <= 16.69095: UNSAFE (465.3/211.3)
+    
     :               AssessTotal > 16.69095: SAFE (418/181.7) ACC = 30%
+    
     Violations > 0:
     :...AssessTotal > 160.4799: SAFE (41.5/8.2)
         AssessTotal <= 160.4799:
