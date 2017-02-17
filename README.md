@@ -32,8 +32,21 @@ Accuracy of predicting safe buildings: 95%
 
 Accuracy of predicting unsafe buildings: 40%
 
+Conclusion: Model is very good at predicting safee buildings, not so good at predicting unsafe buildings
 
 
+
+              | predicted Status 
+actual Status |      SAFE |    UNSAFE | Row Total | 
+--------------|-----------|-----------|-----------|
+         SAFE |       964 |        53 |      1017 | 
+              |     0.764 |     0.042 |           | 
+--------------|-----------|-----------|-----------|
+       UNSAFE |       147 |        97 |       244 | 
+              |     0.117 |     0.077 |           | 
+--------------|-----------|-----------|-----------|
+ Column Total |      1111 |       150 |      1261 | 
+--------------|-----------|-----------|-----------|
 
 
 
