@@ -24,7 +24,7 @@ Independent variables: Building frontage (the width of the building), age, asses
 
 Method: Trained model using training dataset and validated with test data, calculated accuracy and applied rules to PLUTO dataset to find buildings that are unsafe.
 
-Results: 
+####Results: 
 
 Overall accuracy of the model: 86%
 
@@ -37,7 +37,7 @@ Conclusion: Model is very good at predicting safee buildings, not so good at pre
 ![capture_predictive_actual](https://cloud.githubusercontent.com/assets/11237613/23081238/e63b5296-f521-11e6-8351-228ce96e1a0a.PNG)
 
 
-Decision Tree Rules:
+####Decision Tree Rules:
 
 
 
