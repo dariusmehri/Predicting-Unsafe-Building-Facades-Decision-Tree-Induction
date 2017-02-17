@@ -18,11 +18,20 @@ Data limitations – Compliance only applies to buildings 6 floors or higher
 
 Decision tree models are  classifiers that utilize a tree structure to model the relationships among the features and the potential outcomes.
 
-Trained model, calculated accuracy and applied rules to test data.
-
-Dependent variable: Building is "unsafe" or "safe"
+Dependent variable: Building is "unsafe" or "safe", 10065 buildings labeled as safe, 2550 unsafe.
 
 Independent variables: Building frontage (the width of the building), age, assess total value of the bilding, number of floors, type of ownership (public or private), prevoius complaint history.
+
+Method: Trained model using training dataset and validated with test data, calculated accuracy and applied rules to PLUTO dataset to find buildings that are unsafe.
+
+Results: 
+
+Overall accuracy of the model: 86%
+
+Accuracy of predicting safe buildings: 95%
+
+Accuracy of predicting unsafe buildings: 40%
+
 
 
 
