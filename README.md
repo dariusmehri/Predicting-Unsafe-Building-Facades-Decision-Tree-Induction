@@ -32,7 +32,7 @@ Accuracy of predicting safe buildings: 95%
 
 Accuracy of predicting unsafe buildings: 40%
 
-Conclusion: Model is very good at predicting safee buildings, not so good at predicting unsafe buildings
+Conclusion: Model is very good at predicting safe buildings, not so good at predicting unsafe buildings
 
 ![capture_predictive_actual](https://cloud.githubusercontent.com/assets/11237613/23081238/e63b5296-f521-11e6-8351-228ce96e1a0a.PNG)
 
