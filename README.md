@@ -1,8 +1,8 @@
-#Research Question and Data
+# Research Question and Data
 
-###Can the DOB develop a model using existing data to predict unsafe buildings? Are building characteristics a good predictor of whether a building facade is safe or unsafe?
+### Can the DOB develop a model using existing data to predict unsafe buildings? Are building characteristics a good predictor of whether a building facade is safe or unsafe?
 
-###Data: Compliance database
+### Data: Compliance database
 
 Owners who own buildings greater than 6 floors are required to file whether their building facade is safe or unsafe.
 
@@ -12,9 +12,9 @@ Dataset included filings from 2000 through the present.
 
 Data limitations – Compliance only applies to buildings 6 floors or higher
 
-#Model
+# Model
 
-###Decision tree induction
+### Decision tree induction
 
 Decision tree models are  classifiers that utilize a tree structure to model the relationships among the features and the potential outcomes.
 
@@ -24,7 +24,7 @@ Independent variables: Building frontage (the width of the building), age, asses
 
 Method: Trained model using training dataset and validated with test data, calculated accuracy and applied rules to PLUTO dataset to find buildings that are unsafe.
 
-####Results: 
+#### Results: 
 
 Overall accuracy of the model: 86%
 
@@ -37,7 +37,7 @@ Conclusion: Model is very good at predicting safe buildings, not so good at pred
 ![capture_predictive_actual](https://cloud.githubusercontent.com/assets/11237613/23081238/e63b5296-f521-11e6-8351-228ce96e1a0a.PNG)
 
 
-####Decision Tree Rules:
+#### Decision Tree Rules:
 
 
 
